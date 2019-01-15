@@ -1,7 +1,11 @@
 // npm install --save pg to be able to require pg
 const pg = require("pg");
 // configure the path to the database that you wish to interact with
-const postgresUrl= 'postgres://postgres:admin123@localhost:5432/postgres';
+const username = 'postgres';
+const password = 'admin123';
+const port = '5432';
+const databaseName = 'input_app';
+const postgresUrl= `postgres://${username}:${password}@localhost:${port}/${databaseName}`;
 var express = require('express');
 
 
