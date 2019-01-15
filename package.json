@@ -1,0 +1,17 @@
+{
+  "name": "testdb",
+  "version": "1.0.0",
+  "description": "Test on Node.js with pg",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "consolidate": "*",
+    "express": "*",
+    "pg": "*"
+  }
+}
