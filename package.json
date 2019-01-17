@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "*",
     "consolidate": "*",
     "express": "*",
-    "pg": "*"
+    "pg": "*",
+    "sequelize": "*",
+    "sequelize-cli": "^5.4.0"
   }
 }
